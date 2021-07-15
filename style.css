@@ -1,0 +1,60 @@
+body {
+    background: rgb(107, 107, 176);
+    background: radial-gradient(circle, rgba(107, 107, 176, 1) 1%, rgba(173, 104, 104, 1) 45%, rgba(179, 103, 172, 1) 68%, rgba(187, 103, 121, 1) 75%, rgba(214, 102, 102, 1) 100%);
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.options label {
+    padding: 10px;
+}
+
+.boxStyle {
+    display: table;
+    position: absolute;
+    z-index: 9;
+    padding: 20px;
+    background: #1f6570;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    list-style: linear-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(13, 42, 34, 1) 100%);
+}
+
+.listStyle li {
+    display: block;
+    padding: 10px;
+}
+
+textarea {
+    color: black;
+}
+
+.boxStyle button {
+    position: absolute;
+    top:0;
+    right: 0;
+    color:rgba(63, 94, 251, 1);
+    background-color: salmon;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    list-style: linear-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(13, 42, 34, 1) 100%);
+    list-style-type: upper-alpha;
+}
